@@ -11,7 +11,7 @@ public class ShoppingCartProgram {
         char currency = '$';
         double total;
 
-        System.out.print("What item do you like to buy?: ");
+        System.out.print("What item would you like to buy?: ");
         item = scanner.nextLine();
 
         System.out.print("What is the price for each?: ");

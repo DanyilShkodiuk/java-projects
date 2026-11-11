@@ -9,15 +9,15 @@ public class TemperatureConverter {
         double newTemp;
         String unit;
 
-        System.out.print("Enter the tempreture: ");
+        System.out.print("Enter the temperature: ");
         temp = scanner.nextDouble();
 
-        System.out.print("Convert to Celsius or Ferenheit? (C or F): ");
+        System.out.print("Convert to Celsius or Fahrenheit? (C or F): ");
         unit = scanner.next().toUpperCase();
 
-        newTemp = (unit.equals("C")) ? (temp - 32) * 5 / 9 : (temp * 5 / 9) + 32;
+        newTemp = (unit.equals("C")) ? (temp - 32) * 5 / 9 : (temp * 9 / 5) + 32;
 
-        System.out.printf("%.1f%s", newTemp, unit);
+        System.out.printf("%.1f %s%n", newTemp, unit);
 
         scanner.close();
 

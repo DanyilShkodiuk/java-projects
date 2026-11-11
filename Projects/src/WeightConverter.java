@@ -11,7 +11,7 @@ public class WeightConverter {
         int choice;
 
         // welcome message
-        System.out.println("Weight Coversion Program");
+        System.out.println("Weight Conversion Program");
 
         // prompt for user input
         System.out.println("1: Convert lbs to kgs");
@@ -27,7 +27,7 @@ public class WeightConverter {
             newWeight = weight * 0.453592;
             System.out.printf("The new weight in kgs is: %.2f", newWeight);
         }
-        // option 2 convert lbs to kgs
+        // option 2 convert kgs to lbs
         else if (choice == 2) {
             System.out.print("Enter the weight in kgs: ");
             weight = scanner.nextDouble();
