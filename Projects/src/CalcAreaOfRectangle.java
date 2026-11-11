@@ -17,7 +17,7 @@ public class CalcAreaOfRectangle {
 
         area = width * height;
 
-        System.out.println("The area is: " + area + "cm^2");
+        System.out.println("The area is: " + area + " cm^2");
 
         scanner.close();
 
