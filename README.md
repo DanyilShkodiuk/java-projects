@@ -29,7 +29,7 @@ Or open the `Projects` folder in IntelliJ IDEA and run any class.
 
 ## Tests
 
-[`smoke-test.sh`](smoke-test.sh) runs every program with sample input and checks its output (for example, that 100 °F converts to 212 °F and back). GitHub Actions compiles everything and runs it on each push and pull request.
+[`smoke-test.sh`](smoke-test.sh) runs every program with sample input and checks its output (for example, that 100 °C converts to 212 °F and back). GitHub Actions compiles everything and runs it on each push and pull request.
 
 ```bash
 javac -d out Projects/src/*.java
